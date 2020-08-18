@@ -32,10 +32,10 @@ export default class MyDocument extends Document {
                 crossOrigin=""
               />
               <title>Front-end Developer | owenmerry.com</title>
-                <meta property="og:title" content="Front-end Developer" />
-                <meta property="og:description" content="Front-end Developer - owenmerry.com" />
-                <meta property="og:image" content="https://www.owenmerry.com/share.png" />
-                <meta property="og:url" content="https://www.owenmerry.com/" />
+                <meta property="og:title" content="Frontend Developer" />
+                <meta property="og:description" content="Hello, I’m Owen. I Am A Front-end Developer From Dublin, Livin’ In London." />
+                <meta property="og:image" content="https://owenmerry.com/share.png" />
+                <meta property="og:url" content="https://owenmerry.com/" />
             </Head>
             <body>
               <Main />
