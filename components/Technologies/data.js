@@ -37,6 +37,8 @@ export const data = [
         items: [
             { title: 'Laravel',selected: true },
             { title: 'Wordpress',selected: true },
+            { title: 'Wordpress - Custom Templates' },
+            { title: 'Wordpress - Custom Plugins'},
             { title: 'Silverstripe' },
         ]
     },
@@ -79,8 +81,8 @@ export const data = [
         title: 'Other',
         items: [
             { title: 'HTML5' },
-            { title: 'Adobe After Effects' },
-            { title: 'Adobe Lightroom' },
+            { title: 'Chrome Extensions' },
+            { title: 'Ionic' },
         ]
     }
 ];
