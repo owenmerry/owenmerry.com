@@ -1,13 +1,15 @@
 export const data = [
     {
         pos: 'left',
-        type: 'moved',
-        job: 'Open To New Roles, Contract Or Full-time',
+        job: 'Senior Full Stack Developer (Current)',
+        date: 'Sep 2020 – Present 🤘',
+        company: 'Bark.com',
+        location: 'London, England, United Kingdom',
     },
     {
         pos: 'right',
-        job: 'Senior Frontend Developer (3 Month Contract)',
-        date: 'Jun 2020 – Present (3 mos)',
+        job: 'Senior Frontend Developer (Contract)',
+        date: 'Jun 2020 – Sep 2020 (4 mos)',
         company: 'Each&Other',
         location: 'London, England, United Kingdom',
         images: [
@@ -23,7 +25,7 @@ export const data = [
     },
     {
         pos: 'left',
-        job: 'Senior Javascript Developer',
+        job: 'Senior Javascript Developer (Contract)',
         date: 'Oct 2018 – Dec 2019 (1 yr 3 mos)',
         company: 'Dept Agency',
         location: 'Dublin, Ireland',
@@ -35,7 +37,7 @@ export const data = [
     },
     {
         pos: 'right',
-        job: 'Senior Frontend Developer',
+        job: 'Senior Frontend Developer (Contract)',
         date: 'Oct 2017 – Oct 2018 (1 yr 1 mo)',
         company: 'Each&Other',
         location: 'Dublin, Ireland',
