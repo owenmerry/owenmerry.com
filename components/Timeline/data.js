@@ -1,8 +1,22 @@
 export const data = [
     {
+        pos: 'right',
+        job: 'Engineering Manager (Current)',
+        date: 'December 2022 - Present 🤘',
+        company: 'Skyscanner',
+        location: 'London, England, United Kingdom',
+    },
+    {
+        pos: 'right',
+        job: 'Senior Software Engineer',
+        date: 'March 2022 – December 2022',
+        company: 'Skyscanner',
+        location: 'London, England, United Kingdom',
+    },
+    {
         pos: 'left',
-        job: 'Senior Full Stack Developer (Current)',
-        date: 'Sep 2020 – Present 🤘',
+        job: 'Senior Full Stack Developer',
+        date: 'Sep 2020 – March 2022',
         company: 'Bark.com',
         location: 'London, England, United Kingdom',
     },
