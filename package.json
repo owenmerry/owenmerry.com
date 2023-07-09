@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "NODE_OPTIONS='--openssl-legacy-provider' next build",
+    "build-netlify": "NODE_OPTIONS='--openssl-legacy-provider' next build",
+    "build-old": "next build",
     "start": "next start"
   },
   "dependencies": {
