@@ -13,8 +13,8 @@ return <>
 
 };
 
-const Timeline = () => {
-    return <WrapperStyle>
+const Timeline = ({theme}) => {
+    return <WrapperStyle theme={theme}>
         <div className='grid'>
             {data.map((item, key) => (
                 <>

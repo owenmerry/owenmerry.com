@@ -10,7 +10,7 @@ const buttonClicked = (type) => {
 }
 
 
-    return <WrapperStyle>
+    return <WrapperStyle color={props.color} theme={props.theme}>
         <div className={`button ` + isSelected('tech')}
         onClick={() => buttonClicked('tech')}
         >What have I used</div>

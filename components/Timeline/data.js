@@ -9,14 +9,14 @@ export const data = [
     {
         pos: 'right',
         job: 'Senior Software Engineer',
-        date: 'March 2022 – December 2022',
+        date: 'March 2022 – December 2022 (10 mos)',
         company: 'Skyscanner',
         location: 'London, England, United Kingdom',
     },
     {
         pos: 'left',
         job: 'Senior Full Stack Developer',
-        date: 'Sep 2020 – March 2022',
+        date: 'Sep 2020 – March 2022 (1 yr 7 mos)',
         company: 'Bark.com',
         location: 'London, England, United Kingdom',
     },

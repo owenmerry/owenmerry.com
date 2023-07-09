@@ -15,7 +15,7 @@ padding-top: 60px;
         font-weight:bold;
         margin-bottom: 16px;
         span{
-            border:solid 1px #c5c5c5;
+            border:solid 1px ${(props) => props.theme.colorBorder};
             border-radius: 14px;
             padding: 8px 12px;
             margin-left: 14px;
@@ -26,16 +26,16 @@ padding-top: 60px;
         h3{
             font-size:16px;
             display: inline-block;
-            border:solid 1px #c5c5c5;
+            border:solid 1px ${(props) => props.theme.colorBorder};
             border-radius: 14px;
             padding: 10px 20px;
             margin: 5px;
             margin-right: 10px;
             &.selected{
                 border-radius: 0px;
-                background-color: black;
-                color: white;
-                border:solid 1px black;
+                background-color: ${(props) => props.theme.color};
+                color: ${(props) => props.theme.colorBackground};
+                border:solid 1px ${(props) => props.theme.color};
             }
         }
     }

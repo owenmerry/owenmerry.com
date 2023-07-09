@@ -8,19 +8,19 @@ position: sticky;
 top:0px;
 z-index: 10;
 padding: 10px; 
-background-color:white;
+background-color: ${(props) => props.theme.colorBackground};
 
 .button{
     display:inline-block;
     font-size: 16px;
     border-radius: 8px;
     padding: 18px 14px;
-    color: #181818;
+    color: ${(props) => props.theme.color};
     cursor: pointer;
     font-weight: bold;
     &.selected{
-        background-color: #181818;
-        color: white;
+        background-color: ${(props) => props.theme.color};
+        color: ${(props) => props.theme.colorBackground};
     }
 }
 

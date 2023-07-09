@@ -1,8 +1,8 @@
 import { WrapperStyle } from './styles';
 import { data } from './data';
 
-const Technologies = () => {
-    return <WrapperStyle>
+const Technologies = ({theme}) => {
+    return <WrapperStyle theme={theme}>
     {data.map((item, key) => (
         <div key={key} className='block'>
             <div className='title'>{item.title} {item.time && (<span>{item.time}</span>)}</div>

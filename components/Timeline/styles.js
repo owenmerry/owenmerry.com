@@ -22,7 +22,7 @@ padding-top: 60px;
             height:10px;
             width:10px;
             border-radius: 50%;
-            background-color:black;
+            background-color:${(props) => props.theme.color};
             position:absolute;
             left:-5px;
             top:40px;
@@ -31,7 +31,7 @@ padding-top: 60px;
             content: '';
             height: calc(100% - 26px);
             width:2px;
-            background-color:black;
+            background-color:${(props) => props.theme.color};
             position:absolute;
             left:-1px;
             top:57px;
@@ -69,8 +69,8 @@ padding-top: 60px;
             h3{
                 position: relative;
                 top: 14px;
-                background-color: black;
-                color: white;
+                background-color: ${(props) => props.theme.color};
+                color: ${(props) => props.theme.colorBackground};
                 padding: 10px 20px;
                 display:inline-block;
                 .move-icon{
