@@ -10,7 +10,9 @@ export const WrapperStyle = styled.div`
   .button {
     cursor: pointer;
     padding: 10px;
+    margin: 5px;
     border-radius: 10px;
+    display: inline-block;
   }
 
   .button:hover {

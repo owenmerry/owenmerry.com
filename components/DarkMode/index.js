@@ -5,7 +5,7 @@ const DarkMode = ({ toggleTheme, colorMode }) => {
     <WrapperStyle>
       <div className="holder">
         <div className="button" onClick={toggleTheme}>
-          {colorMode ? `⚫ Show Normal Mode` : `🌈 Show Color Mode`}
+          🌈
         </div>
       </div>
     </WrapperStyle>
